@@ -1,0 +1,60 @@
+/* page d'acceuil */
+
+.fond_titre{
+    background-color: lightsteelblue;
+    height: 50px;
+    width: auto;
+
+}
+.fond{
+
+    background-color: rgb(236, 225, 225);
+    margin-top: 1px;
+    height: auto;
+    width: auto;
+}
+
+.title{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.text_index_about{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font:large
+}
+
+.text{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: left;
+    font: xx-large;
+}
+
+.déroulant {
+  position: relative;
+  display: inline-block;
+}
+
+.contenu {
+ display: none;
+ position: absolute;
+  background-color:lightgray;
+}
+
+.déroulant:hover .contenu {
+  display: block;
+  background-color: darkgray;
+}
+
+@media screen and (max-width: 600px) {
+  .fond_titre {
+    background-color: rgb(255, 199, 177);
+    color: black;
+  }
+}
+
+
